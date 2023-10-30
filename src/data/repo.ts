@@ -1,13 +1,6 @@
-# Week 4 - Challenge 2
+import { GentlemanType } from '../types/gentleman';
 
-## Gentlemen pointing at you React
-
-Crea una aplicación React a partir de esta maqueta. Identifica qué datos del HTML actual son dinámicos y prográmalos para que se alimenten a partir del array proporcionado.
-
-Utiliza los siguientes componentes: App, Info, Button (Select All), Gentleman
-
-```javascript
-[
+export const gentleman: GentlemanType[] = [
   {
     id: 1,
     name: 'Bertin Osborne',
@@ -19,13 +12,13 @@ Utiliza los siguientes componentes: App, Info, Button (Select All), Gentleman
     selected: true,
   },
   {
+    id: 2,
     name: 'The Farytale',
     status: 'RIP',
     profession: 'Influencer',
     twitter: 'pending',
     picture: 'fary.jpg',
     alternativeText: 'The Fary pointing at you',
-    id: 2,
     selected: false,
   },
   {
@@ -39,6 +32,3 @@ Utiliza los siguientes componentes: App, Info, Button (Select All), Gentleman
     selected: true,
   },
 ];
-```
-
-# 202309-w4ch1-andrea-lopez
